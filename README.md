@@ -2,11 +2,16 @@
 Source code and dataset for ICMR'24 paper "[Component-Level Oracle Bone Inscription Retrieval](https://dl.acm.org/doi/abs/10.1145/3652583.3658116)" (Best Paper Candidate)
 
 ## 0. To Do List
-1. -[ ] Task Definition
+1. -[x] Task Definition
 2. -[x] dataset
 3. -[x] code
 
 ## 1. Task Definition
+Oracle Bone Inscriptions (OBIs) are pictographic scripts, various realworld entities are abstracted into distinct components within OBIs to represent different meanings, such as "foot", "person", and "water". Subsequently, a more nuanced semantics is conveyed through the combination of these components. Figure below illustrates four examples, i.e., "stand", "pace", "wade", and "climb", of deciphered OBIs. Each of them is composed of the "foot" component along with other distinct components. This diversity in constituent components results in distinct meanings for these characters. However, since these characters all incorporate the "foot" component, they share a certain semantic association with each other. Therefore, linking different OBIs through their respective components holds significant implications. Specifically, exploring the patterns among characters sharing the same component facilitates the deciphering and comprehension of OBIs. 
+
+To this end, we propose **Component-level Oracle Bone Inscription Retrieval**, i.e., given a component, the goal is to retrieve all OBIs that incorporate this particular component.
+
+![Capture](https://github.com/user-attachments/assets/e6abbca2-73c3-472f-9f3e-d66b950e894d)
 
 ## 2. Dataset
 ### 2.1. Introduction
