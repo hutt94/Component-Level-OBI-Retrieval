@@ -8,7 +8,7 @@ Source code and dataset for ICMR'24 paper "[Component-Level Oracle Bone Inscript
 
 ## 1. Task Definition
 Oracle Bone Inscriptions (OBIs) are pictographic scripts, various realworld entities are abstracted into distinct components within OBIs to represent different meanings, such as "foot", "person", and "water". Subsequently, a more nuanced semantics is conveyed through the combination of these components. Figure below illustrates four examples, i.e., "stand", "pace", "wade", and "climb", of deciphered OBIs. 
-- **企 Stand** is constituted by one "止 foot" component and one "person" component, symbolizing an individual standing upright.
+- **企 Stand** is constituted by one "止 foot" component and one "人 person" component, symbolizing an individual standing upright.
 - **步 Pace** is formed by two "止 foot" components arranged in a front-and-back configuration, symbolizing an act of stepping once.
 - **涉 Wade** is composed of two "止 foot" components in a front-and-back arrangement, with one "水 water" component intersecting through them, symbolizing walking into the water.
 - **陟 Climb** is constructed with two upward-facing "止 foot" components and one "阜 mound" component, symbolizing ascending a mound.
