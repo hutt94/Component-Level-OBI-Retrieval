@@ -85,6 +85,16 @@ python visual.py --componet_path components_file_name /
   pages={647--656},
   year={2024}
 }
+
+@inproceedings{hu2025component,
+  title={Component-Level Segmentation for Oracle Bone Inscription Decipherment},
+  author={Hu, Zhikai and Cheung, Yiu-ming and Zhang, Yonggang and Zhang, Peiying and Tang, Pui-ling},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={27},
+  pages={28116-28124},
+  year={2025}
+}
 ```
 
 ## Acknowledgments
